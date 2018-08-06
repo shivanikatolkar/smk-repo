@@ -4,9 +4,11 @@ public class MainClass {
 
 	public static void main(String[] args) {
 		SalesClass class1=new SalesClass();
+		ProfitClass profit=new ProfitClass();
 		System.out.println("Hello World!!");
 		greet();
 		class1.show();
+		profit.showProfit();
 	}
 	
 	public static void greet() {
