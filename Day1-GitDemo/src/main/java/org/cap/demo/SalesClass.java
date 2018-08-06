@@ -8,5 +8,8 @@ public class SalesClass {
 		for(int num:array) {
 			System.out.println(num);
 		}
+		SalesDetails salesD=new SalesDetails();
+		salesD.details();
+		
 	}
 }
